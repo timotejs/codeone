@@ -12,11 +12,7 @@ body {
 .top-img .mask {
 	height: 100vh;
 }
-.content {
-	margin-top: 80px;
-}
-.content p {
-	width: 990px;
+.container p {
 	margin: 30px auto;
 	text-align: justify;
 	font-size: 20px;
