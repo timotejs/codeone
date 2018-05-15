@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Material Design Bootstrap</title>
+    <title>Web Development Timotej Sofijanovic</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/mdb.min.css" rel="stylesheet">
@@ -13,41 +13,36 @@
 </head>
 
 <body>
-	
+
 	<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
 		<div class="container">
-		  <a class="navbar-brand" href="index.html">
-		    <strong>CodeOne</strong>
-		  </a>
 
 		  <!-- Collapse -->
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-		    aria-expanded="false" aria-label="Toggle navigation">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onclick="changeCollapseColor()">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
 
-		  <!-- Links -->
 		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-		    <!-- Left -->
+		    <!-- Links -->
 		    <ul class="navbar-nav mr-auto">
-		      <li class="nav-item active">
-		        <a class="nav-link" href="index.html">Home
+		      <li class="nav-item">
+		        <a class="nav-link" href="#1">About
 		          <span class="sr-only">(current)</span>
 		        </a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link" href="#">Projects</a>
+		        <a class="nav-link" href="#">Work</a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link" href="#">About</a>
+		        <a class="nav-link" href="#">Projects</a>
 		      </li>
 		      <li class="nav-item">
 		        <a class="nav-link" href="#">Contact</a>
 		      </li>
 		    </ul>
 
-		    <!-- Right -->
+		    <!-- Social -->
 		    <ul class="navbar-nav nav-flex-icons">
 		      <li class="nav-item">
 		        <a href="#" class="nav-link">
@@ -66,21 +61,27 @@
 		</div>
 	</nav>
 
+  <!-- main-img -->
 	<section class="top-img">
 		<div class="mask rgba-black-light d-flex justify-content-center align-items-center">
-			<div class="text-center white-text mx-5 wow fadeIn smooth-scroll">
-				<h1 class="mb-4" id="main-title"><strong>CodeOne</strong></h1>
+			<div class="text-center white-text mx-5 wow fadeIn">
 
-				<h2><strong>Web Development</strong></h2>
+				<h1 class="animated fadeIn mb-4" id="main-title"><strong>Web designer & Front-end Web Developer</strong></h1>
 
-				<p class="mb-4 d-none d-md-block">
-					<strong>I will cretate you a professional looking website with Bootstrap</strong>
-				</p>
+				<h3 class="animated fadeIn mb-4 d-none d-md-block">
+                    <strong>I design and code simple and responsive websites</strong>
+				</h3>
 
-				<a href="#1" class="btn btn-outline-white btn-lg">Check it out</a>
 			</div>
+
+      <div id="scroll-info" class="mx-auto text-center text-white">
+        <p>Scroll for more informations</p>
+        <img class="img-fluid" src="images/down.svg">
+      </div>
+
 		</div>
 	</section>
+  <!-- end main-img -->
 
 	<section class="container mt-5" id="1">
 
