@@ -1,11 +1,10 @@
 var prevScrollpos = window.pageYOffset;
 
-window.addEventListener('scroll', function() {
-    if($(window).scrollTop() === 0) {
+window.addEventListener('scroll', function () {
+    if ($(window).scrollTop() === 0) {
         $("#scroll-info").fadeIn("slow");
         $(".navbar").fadeIn();
-    }
-    else {
+    } else {
         $("#scroll-info").fadeOut("slow");
         $(".navbar").fadeOut();
     }
