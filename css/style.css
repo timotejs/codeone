@@ -34,6 +34,19 @@ body {
     margin-bottom: 0;
 }
 
+#about-card {
+    padding: 20px;
+    top: -20px;
+    width: 90%;
+}
+
+#about-card p {
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
 @media only screen and (max-width: 768px) {
     .navbar {
         visibility: hidden;
