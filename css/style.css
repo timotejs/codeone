@@ -40,11 +40,32 @@ body {
     width: 90%;
 }
 
-#about-card p {
+#about-card p, #project-card p {
     font-size: 18px;
     margin-top: 10px;
     font-family: sans-serif;
     text-align: center;
+}
+
+#projects-title {
+    margin-top: 150px;
+}
+
+#project-container {
+    z-index: 1;
+}
+
+#project-img {
+    position: relative;
+    border-radius: 6px;
+    z-index: 3;
+}
+
+#project-card {
+    z-index: 2;
+    padding: 20px;
+    top: -20px;
+    width: 90%;
 }
 
 @media only screen and (max-width: 768px) {
