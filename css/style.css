@@ -34,13 +34,19 @@ body {
     margin-bottom: 0;
 }
 
+.about-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 #about-card {
     padding: 20px;
     top: -20px;
     width: 90%;
 }
 
-#about-card p, #project-card p {
+#about-card p,
+#project-card p {
     font-size: 18px;
     margin-top: 10px;
     font-family: sans-serif;
@@ -66,6 +72,15 @@ body {
     padding: 20px;
     top: -20px;
     width: 90%;
+}
+
+.mask {
+    z-index: 4;
+}
+
+#contact {
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 @media only screen and (max-width: 768px) {
