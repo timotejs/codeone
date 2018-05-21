@@ -74,8 +74,12 @@ body {
     width: 90%;
 }
 
-.mask {
-    z-index: 4;
+#project_link {
+    color: black;
+}
+
+#project_link:hover {
+    text-decoration: underline;
 }
 
 #contact {
